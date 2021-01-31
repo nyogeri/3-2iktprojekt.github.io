@@ -1,0 +1,16 @@
+.wrapper{
+    max-width: 1200px;
+
+
+}
+.box{
+    border: 1px solid #000;
+    padding: 10px
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
