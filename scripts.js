@@ -8,12 +8,10 @@ $(function() {
     if (!$actualImage.hasClass('scale-half')) {
       return;
     }
-
-    // aktuális kép
-    let $previousImage = $('.image-wrapper img:not(.scale-half)');
-
-    // class variálás
-    $previousImage.addClass('scale-half');
     $actualImage.removeClass('scale-half');
+  });
+
+  $image.mouseleave(function(){
+    $(this).addClass('scale-half');
   });
 });
