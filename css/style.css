@@ -105,31 +105,33 @@ nav.navbar{
     border: 3px solid white;
     box-shadow: 2px 2px 10px #454545;
     transition: all linear .5s;
-  
-  }
+}
 
-  .scale-half {
-    transform: scale(.5);
-    
-  }
+.scale-half {
+    transform: scale(.5);   
+}
 
-  .text-center{
+.text-center{
     margin-top: 20px;
-  }
-  .text-center > a{
+}
+.text-center > a{
       padding: 10px;
       text-decoration: none;
       border-radius: 10px;
       color: white;
       background-color: darkblue;
-  }
+}
 
-  .pozicio{
+.pozicio{
       position: absolute;
-      bottom: 50px;
+      bottom: 40px;
       left: 45%;
       
-  }
+}
+
+.pozicio>a{
+    background-color: rgb(59, 59, 247);
+}
 
 @media (min-width: 576px){
     .container, .container-lg, .container-md, .container-sm{
