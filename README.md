@@ -1,1 +1,2 @@
 # DIY Barkácsáruház
+# Második alkalom
